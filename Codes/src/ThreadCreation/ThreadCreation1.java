@@ -2,6 +2,8 @@ package ThreadCreation;
 
 public class ThreadCreation1 {
     public static void main(String[] args) {
+
+        System.out.println(Runtime.getRuntime().availableProcessors());
         Thread t = new Thread(new Runnable() {
             @Override
             public void run() {
